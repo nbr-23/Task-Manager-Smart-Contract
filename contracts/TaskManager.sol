@@ -29,7 +29,7 @@ contract TaskManager {
         count = 0;
     }
 
-    function addTask(string memory content) public {
+    function addTask(string memory content) public isPemium {
         Task memory task = Task(count, Priority.LOW, content, block.timestamp, false);
         tasks[count] = task;
         count = SafeMath.add(count, 1);
@@ -48,7 +48,7 @@ contract TaskManager {
     }
 
     modifier isPemium {
-        require(count + 1 < 10 || premiums[msg.sender], 'please upgrade to add more than 10');
+        require(count + 1 < 11 || premiums[msg.sender], 'please upgrade to add more than 10');
         _;
     }
 
