@@ -42,5 +42,10 @@ contract TaskManager {
         tasks[_count] = task;
     }
 
+    function upgradePlan() public payable {
+        require(msg.value >= 5 wei, 'no sufficient fund');
+        premiums[msg.sender] = true;
+    }
+
     
 }

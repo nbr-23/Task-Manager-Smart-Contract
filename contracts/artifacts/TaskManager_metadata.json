@@ -81,6 +81,13 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "upgradePlan",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -111,11 +118,11 @@
 	},
 	"sources": {
 		"contracts/TaskManager.sol": {
-			"keccak256": "0x12bb73eefc2c37ee0c1e448c30d6449a9252c3b97ff16d4efdf02a6e81aef8c2",
+			"keccak256": "0x00573757b392c8a544673017278f2fc2b1914a0b0805d9c0ac488b7efcb59062",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://225e2f73ef1c382ab6f6c9253f3f9be61e5c48ccf8903bc6923188b2d9460529",
-				"dweb:/ipfs/QmQMarzDstuT72mhaapi1P9jBP777VJKVspoz6ym61X136"
+				"bzz-raw://fea20182adbcbfbd6d51784bc5393f8f7c707bf81d44eb5fd73a7e6f0c88a012",
+				"dweb:/ipfs/QmTouK3zoxoJkPykPg9xzbfiaWoXutwD9G3dobNooS7SfC"
 			]
 		},
 		"https://github.com/mdexSwap/contracts/blob/master/contracts/library/SafeMath.sol": {
