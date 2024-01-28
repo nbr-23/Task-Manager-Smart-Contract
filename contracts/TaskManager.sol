@@ -32,7 +32,7 @@ contract TaskManager {
     function addTask(string memory content) public {
         Task memory task = Task(count, Priority.LOW, content, block.timestamp, false);
         tasks[count] = task;
-        count++;
+        count = SafeMath.add(count, 1);
         emit NewTask(task, block.timestamp);
     }
 
