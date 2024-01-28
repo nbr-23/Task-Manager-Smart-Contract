@@ -18,7 +18,7 @@ contract TaskManager {
     uint private count;
 
     mapping(uint => Task) tasks; 
-    
+    mapping(address => bool) premiums;
 
     constructor(){
         admin = msg.sender; // access the author of the smart contract
