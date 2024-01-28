@@ -9,6 +9,19 @@
 				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "content",
+						"type": "string"
+					}
+				],
+				"name": "addTask",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -39,11 +52,11 @@
 	},
 	"sources": {
 		"contracts/TaskManager.sol": {
-			"keccak256": "0x2ceb7e1185c78358567f0562e33c0cfddad5c220353e84d7340657ae7d1a2ab9",
+			"keccak256": "0x9664e04413e8d7ef479ce3fea09c2943aac4c376ca9c29facb416b80ce76c4f0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://cb305a78b8c563cd9921af86c752ffa909429e5e79081d106ac0f66210a9a134",
-				"dweb:/ipfs/QmbqSqBcLATJveZWLvLJRSevvRua7Z6SZ5kty4erTqiXhC"
+				"bzz-raw://94bcca2741f33321da3f21ec0d1883ceacc17cf39bb7f8dcdd832587e487f813",
+				"dweb:/ipfs/QmXTdmCW2ETqY9xX7vdjfFn8Ce7vqFErzNPjn1bJgcczyB"
 			]
 		}
 	},

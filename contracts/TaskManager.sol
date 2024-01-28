@@ -25,5 +25,11 @@ contract TaskManager {
         count = 0;
     }
 
+    function addTask(string memory content) public {
+        Task memory task = Task(count, Priority.LOW, content, block.timestamp, false);
+        tasks[count] = task;
+        count++;
+    }
+
     
 }
