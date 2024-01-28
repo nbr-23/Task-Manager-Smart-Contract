@@ -14,11 +14,14 @@ contract TaskManager {
         bool completed; // Task completed or not state
     }
 
-    address admin;
+    address admin; // the author of spart contract
     uint private count;
 
+    mapping(uint => Task) tasks; 
+    
+
     constructor(){
-        admin = msg.sender;
+        admin = msg.sender; // access the author of the smart contract
         count = 0;
     }
 

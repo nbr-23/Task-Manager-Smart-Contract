@@ -39,11 +39,11 @@
 	},
 	"sources": {
 		"contracts/TaskManager.sol": {
-			"keccak256": "0x1763dfcdfb6c1dcf02a98613a2bf68224148247acc4d283bac83a3e29f8a2e71",
+			"keccak256": "0xe054b7f033804e30287c320414aec16093b57a584a736ccd1e2d7c3ee480e7ac",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9ab2f332d0d8a5917ce51b07c6042a24d1252e2590a6308bb4a4cad6a632c6c3",
-				"dweb:/ipfs/Qmaak6PccjXfDn2pGEgar9aYVCGtdA7so655tjawzNMptD"
+				"bzz-raw://780039a491ee1ff7b4c0676e9f50b8e91ac38f56db78734c6cb0243c2dea24e3",
+				"dweb:/ipfs/QmTE8j5MhVKndAZQqPWBzS8nQbJvPKT7U4hsBh2KM1DpZX"
 			]
 		}
 	},
