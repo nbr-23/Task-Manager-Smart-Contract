@@ -30,6 +30,11 @@ contract TaskManager {
         tasks[count] = task;
         count++;
     }
+    function completeTask(uint _count) public {
+        Task memory task = tasks[_count];
+        task.completed = true;
+        tasks[_count] = task;
+    }
 
     
 }

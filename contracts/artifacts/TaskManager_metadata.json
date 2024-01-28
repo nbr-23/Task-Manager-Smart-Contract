@@ -22,6 +22,19 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_count",
+						"type": "uint256"
+					}
+				],
+				"name": "completeTask",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -52,11 +65,11 @@
 	},
 	"sources": {
 		"contracts/TaskManager.sol": {
-			"keccak256": "0x9664e04413e8d7ef479ce3fea09c2943aac4c376ca9c29facb416b80ce76c4f0",
+			"keccak256": "0x3c154f4a1b1cf6d575dfdc6568635a51016d36f20fa2deef7b2a5ad4c96e855b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://94bcca2741f33321da3f21ec0d1883ceacc17cf39bb7f8dcdd832587e487f813",
-				"dweb:/ipfs/QmXTdmCW2ETqY9xX7vdjfFn8Ce7vqFErzNPjn1bJgcczyB"
+				"bzz-raw://d814e063d191cbf799e1774b9017a0ad9c548dad3254fb0e4811f3b0298cc374",
+				"dweb:/ipfs/QmXDeCFX2wjZJoqYdb8acq13WZ28r1VTKnmLpBKqbjM2j1"
 			]
 		}
 	},
