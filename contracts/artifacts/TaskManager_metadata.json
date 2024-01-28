@@ -84,6 +84,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getTasksCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "upgradePlan",
 				"outputs": [],
 				"stateMutability": "payable",
@@ -118,11 +131,11 @@
 	},
 	"sources": {
 		"contracts/TaskManager.sol": {
-			"keccak256": "0xc09c0afa664af7c6d31d000838abf2d1d792964f3e289fcd229188975696fb1b",
+			"keccak256": "0xa0b854f94a86bad8de7860949976249b15a72e3a08b0be5d9ed65c6fff497716",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://df4630f5f4fa1d5d546e15ac750acc2a90e41a389289490d2a4e820b1ceb7160",
-				"dweb:/ipfs/QmdhazUBuvYKBdcdJkZY74Pa6qyVqvZcx5hfenSucBkREo"
+				"bzz-raw://0150cd34a7cf1d117db79287afb865e268fd509cd85157604d3e2c90644eaf8e",
+				"dweb:/ipfs/QmfDmj86WsPMSyJM99nDSBaMtCzyM2rswTM3PXVtvwJgFv"
 			]
 		},
 		"https://github.com/mdexSwap/contracts/blob/master/contracts/library/SafeMath.sol": {

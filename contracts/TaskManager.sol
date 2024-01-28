@@ -52,5 +52,9 @@ contract TaskManager {
         _;
     }
 
+    function getTasksCount() view public returns (uint) {
+        return count;
+    }
+
     
 }
