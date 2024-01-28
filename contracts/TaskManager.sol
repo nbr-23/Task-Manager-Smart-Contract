@@ -47,5 +47,10 @@ contract TaskManager {
         premiums[msg.sender] = true;
     }
 
+    modifier isPemium {
+        require(count + 1 < 10 || premiums[msg.sender], 'please upgrade to add more than 10');
+        _;
+    }
+
     
 }
