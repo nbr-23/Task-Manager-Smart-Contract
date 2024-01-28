@@ -19,6 +19,8 @@ contract TaskManager {
 
     mapping(uint => Task) tasks; 
     mapping(address => bool) premiums;
+    event NewTask(Task task, uint time);
+
 
     constructor(){
         admin = msg.sender; // access the author of the smart contract
@@ -29,7 +31,9 @@ contract TaskManager {
         Task memory task = Task(count, Priority.LOW, content, block.timestamp, false);
         tasks[count] = task;
         count++;
+        emit NewTask(task, block.timestamp);
     }
+    
     function completeTask(uint _count) public {
         Task memory task = tasks[_count];
         task.completed = true;
