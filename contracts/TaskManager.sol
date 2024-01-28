@@ -20,7 +20,7 @@ contract TaskManager {
     uint private count;
 
     mapping(uint => Task) tasks; 
-    mapping(address => bool) premiums;
+    mapping(address => bool) public premiums;
     event NewTask(Task task, uint time);
 
 
