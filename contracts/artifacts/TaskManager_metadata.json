@@ -11,6 +11,52 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum TaskManager.Priority",
+								"name": "priority",
+								"type": "uint8"
+							},
+							{
+								"internalType": "string",
+								"name": "content",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "completed",
+								"type": "bool"
+							}
+						],
+						"indexed": false,
+						"internalType": "struct TaskManager.Task",
+						"name": "task",
+						"type": "tuple"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					}
+				],
+				"name": "NewTask",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -65,11 +111,19 @@
 	},
 	"sources": {
 		"contracts/TaskManager.sol": {
-			"keccak256": "0x3c154f4a1b1cf6d575dfdc6568635a51016d36f20fa2deef7b2a5ad4c96e855b",
+			"keccak256": "0xbbcea439f4a872165c2d5ca1854015655a340731f7bd39828012822aa9d7ac6f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d814e063d191cbf799e1774b9017a0ad9c548dad3254fb0e4811f3b0298cc374",
-				"dweb:/ipfs/QmXDeCFX2wjZJoqYdb8acq13WZ28r1VTKnmLpBKqbjM2j1"
+				"bzz-raw://4baa172ab32b05614a49e7fcd25817374b75693be4a43dad1677cfeab0e19650",
+				"dweb:/ipfs/QmZwDmF7afD543bFMU7pp7Gm5S3zHVX32Wuf6ngLCKTnQg"
+			]
+		},
+		"https://github.com/mdexSwap/contracts/blob/master/contracts/library/SafeMath.sol": {
+			"keccak256": "0x153314a0683c42a79d29cbb12850e53b27953e3014e7b4702011042172689526",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://aa70552ad5855b1ab3d722032d5ce70c3c7c1309dcc881e5d84448ee220868f6",
+				"dweb:/ipfs/QmbW619S6ToBg9T5Ag435PbKritjEGHJ1fQFgDKBQkYGTt"
 			]
 		}
 	},

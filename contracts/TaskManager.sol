@@ -2,6 +2,8 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
+import "https://github.com/mdexSwap/contracts/blob/master/contracts/library/SafeMath.sol";
+
 contract TaskManager {
 
      enum Priority { LOW, MEDIUM, HIGH } 
@@ -33,7 +35,7 @@ contract TaskManager {
         count++;
         emit NewTask(task, block.timestamp);
     }
-    
+
     function completeTask(uint _count) public {
         Task memory task = tasks[_count];
         task.completed = true;

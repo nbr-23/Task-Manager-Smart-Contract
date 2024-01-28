@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "wad",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/github/mdexSwap/contracts/contracts/library/SafeMath.sol": "SafeMath"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/github/mdexSwap/contracts/contracts/library/SafeMath.sol": {
+			"keccak256": "0x153314a0683c42a79d29cbb12850e53b27953e3014e7b4702011042172689526",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://aa70552ad5855b1ab3d722032d5ce70c3c7c1309dcc881e5d84448ee220868f6",
+				"dweb:/ipfs/QmbW619S6ToBg9T5Ag435PbKritjEGHJ1fQFgDKBQkYGTt"
+			]
+		}
+	},
+	"version": 1
+}
