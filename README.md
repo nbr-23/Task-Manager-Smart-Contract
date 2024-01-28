@@ -9,7 +9,7 @@ You can find a complete description of functions in the code (comments).
 
 ------------------------------------
 
-#### Daployed contract allows us :
+#### Deployed contract allows us :
 
 - Add a task
 - Mark a task as completed
