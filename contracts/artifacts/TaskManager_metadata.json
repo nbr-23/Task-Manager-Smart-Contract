@@ -150,11 +150,11 @@
 	},
 	"sources": {
 		"contracts/TaskManager.sol": {
-			"keccak256": "0xc3cd992e4d26b5fe4f0749508a6af5e99f99737f5f88f4e0fb6ed8e0c146209a",
+			"keccak256": "0xdc0dd4845514068a57b23bd4c42e501521e9903087d498af2edf8f32cb6d50e8",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://6ee3fde8a793592031644a04fbc4927ef9255012750b47e312206ea16d876ca4",
-				"dweb:/ipfs/Qmb2yqFz8AUQYQrHZt83bAZPp1G4h5bUjWTEvxLBkuxetU"
+				"bzz-raw://93dfcddaaa9a9d40af1cc9095b33ab7a0e4f2cc67b4cd167758cd0f64391ecce",
+				"dweb:/ipfs/QmNpmCNygDTMiARQKmYrK2BD7K6KCmsTggxzSYTdeTBr9F"
 			]
 		},
 		"https://github.com/mdexSwap/contracts/blob/master/contracts/library/SafeMath.sol": {

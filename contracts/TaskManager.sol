@@ -29,6 +29,7 @@ contract TaskManager {
         count = 0;
     }
 
+    // Adding tasks with a limite of 10 if basic account, if premium account task adding option is limitless
     function addTask(string memory content) public isPemium {
         Task memory task = Task(count, Priority.LOW, content, block.timestamp, false);
         tasks[count] = task;
@@ -36,22 +37,26 @@ contract TaskManager {
         emit NewTask(task, block.timestamp);
     }
 
+    // Making a task completed
     function completeTask(uint _count) public {
         Task memory task = tasks[_count];
         task.completed = true;
         tasks[_count] = task;
     }
 
+    // Upgrading basic plan to premium for 5 wei
     function upgradePlan() public payable {
         require(msg.value >= 5 wei, 'no sufficient fund');
         premiums[msg.sender] = true;
     }
 
+    // Modifier to check the plan
     modifier isPemium {
         require(count + 1 < 11 || premiums[msg.sender], 'please upgrade to add more than 10');
         _;
     }
 
+    // Getting the count of created tasks for the selected account
     function getTasksCount() view public returns (uint) {
         return count;
     }
